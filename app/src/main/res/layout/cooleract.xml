@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:baseApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pags.OxygenAct_asdler">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="240dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+
+        <View
+            android:id="@+id/top_bg"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"/>
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fl_back"
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bssk"/>
+
+            <TextView
+                android:id="@+id/title_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Cpu Cooler"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:singleLine="true"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="140dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_temperature_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:layout_centerVertical="true"
+                    android:textSize="27sp"/>
+
+                <TextView
+                    android:id="@+id/tv_temperature_c_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignTop="@+id/tv_temperature_c"
+                    android:layout_toEndOf="@+id/tv_temperature_c"
+                    android:text="℃"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/tv_temperature_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/tv_temperature_c_unit"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="27sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/tv_temperature_f"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/tv_temperature_c"
+                    android:text="℉"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="22sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:layout_margin="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPU temperature is normal"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        baseApp:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_app"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            baseApp:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+        <Button
+            android:id="@+id/btn_cool_down"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lean"
+            android:text="Cool Down"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

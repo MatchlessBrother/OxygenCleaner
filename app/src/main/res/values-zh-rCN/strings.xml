@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_screen_brightness">屏幕亮度</string>
+    <string name="text_minimum_frequency">最小频率</string>
+    <string name="text_system_release">系统版本</string>
+    <string name="text_system_language">系统语言</string>
+    <string name="text_host">主机地址</string>
+    <string name="text_battery_level">电量</string>
+    <string name="text_id">版本号</string>
+    <string name="text_battery_voltage">电压</string>
+    <string name="text_cpu_architecture">CPU架构</string>
+    <string name="text_battery_status">电池状态</string>
+    <string name="text_battery_full">已充满</string>
+    <string name="text_battery_technology">电池技术</string>
+    <string name="text_current_frequency">当前频率</string>
+    <string name="text_resolution">分辨率</string>
+    <string name="text_serial">序列号</string>
+    <string name="text_system_encoding">系统编码</string>
+    <string name="text_system_time_zone">系统时区</string>
+    <string name="text_time">时间</string>
+    <string name="text_cpu_model">CPU型号</string>
+    <string name="text_cpu_core_number">CPU核心数</string>
+    <string name="text_maximum_frequency">最大频率</string>
+    <string name="text_battery_temperature">温度</string>
+    <string name="text_density">屏幕密度</string>
+    <string name="text_font_scaling">字体缩放比例</string>
+    <string name="text_refresh_rate">刷新率</string>
+    <string name="text_no_cool_down">不需要降温</string>
+    <string name="text_down_format" formatted="false">降低%.1f℃</string>
+    <string name="text_battery_charging">充电中</string>
+    <string name="text_battery_discharging">放电中</string>
+    <string name="text_select_email">请选择邮件类应用</string>
+    <string name="text_no_boost">不需要加速</string>
+    <string name="text_brand">设备品牌</string>
+    <string name="text_model">型号</string>
+    <string name="text_release_format" formatted="false">释放%s%s内存</string>
+    <string name="text_no_clean">不需要清理</string>
+    <string name="text_no_optimization">不需要优化</string>
+    <string name="text_complete_optimization">完成耗电优化</string>
+</resources>

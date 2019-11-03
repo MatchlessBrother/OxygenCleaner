@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        versionCode 1
+        minSdkVersion 19
+        versionName "1.0.0"
+        targetSdkVersion 28
+        applicationId "com.oxygen.cleaner"
+        vectorDrawables.useSupportLibrary = true
+        resConfigs "zh", "en", "de", "fr", "pl", "it", "es", "pt", "uk"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    applicationVariants.all {
+        variant ->
+            variant.outputs.all {
+                def versionName = defaultConfig.versionName
+                def versionCode = defaultConfig.versionCode
+                def appName = 'OxygenCleaner'
+                if ((variant.buildType.name == 'release')) {
+                    outputFileName = "${appName}-v${versionName}-c${versionCode}-release.apk"
+                    variant.javaCompileProvider.configure {
+                        dependsOn 'genDict'
+                    }
+                } else {
+                    outputFileName = "${appName}-v${versionName}-c${versionCode}-debug.apk"
+                    variant.javaCompileProvider.configure {
+                        dependsOn 'genDict'
+                    }
+                }
+            }
+    }
+}
+
+dependencies {
+    api 'io.reactivex.rxjava2:rxjava:2.2.2'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:support-vector-drawable:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    implementation 'com.gauravk.bubblenavigation:bubblenavigation:1.0.7'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.zhangmonke:MProgressBar:1.0.1'
+    implementation 'com.moos:Material-ProgressView:1.0.6'
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    implementation 'com.github.didikk:sticky-nestedscrollview:1.0.1'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
+    implementation 'com.gyf.immersionbar:immersionbar-components:3.0.0'
+}
+
+task genDict {
+    outputs.file('build/tmp/dict.txt')
+    doLast {
+        def random = new Random()
+        def rowNum = random.nextInt(50) + 50
+        def colNum
+        def dicLine
+        def dic = []
+        for (int row = 0; row < rowNum; row++) {
+            colNum = random.nextInt(18) + 2
+            dicLine = new StringBuilder()
+            dicLine.setLength(0)
+            for (int col = 0; col < colNum; col++) {
+                dicLine.append(Character.toChars(random.nextInt(25) + 97))
+            }
+            dic << dicLine.toString()
+        }
+        def f = outputs.files.getSingleFile()
+        f.getParentFile().mkdirs()
+        f.withWriter("UTF-8") {
+            it.write(dic.join(System.lineSeparator()))
+        }
+    }
+}

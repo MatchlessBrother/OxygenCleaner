@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zhangmonke:MProgressBar:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae04d9238d5985542bfd0c74eaa0f24f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ae04d9238d5985542bfd0c74eaa0f24f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhangmonke/MProgressBar/1.0.1/ae4224bd1b7b6890799d4a170f9f347b492de815/MProgressBar-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:baseApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pags.OxygenAct_asdler">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="240dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal">
+
+        <View
+            android:id="@+id/top_bg"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"/>
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/fl_back"
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bssk"/>
+
+            <TextView
+                android:id="@+id/title_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:text="Battery Saver"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:singleLine="true"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/tv_battery_level"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="50sp"/>
+
+            <TextView
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="Hibernate the selected baseApps to stop battery draining"/>
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        baseApp:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_app"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            baseApp:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+
+        <Button
+            android:id="@+id/btn_hibernate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/lean"
+            android:text="Hibernate"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

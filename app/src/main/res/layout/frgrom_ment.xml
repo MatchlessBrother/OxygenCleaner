@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?android:attr/windowBackground"
+    xmlns:baseApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="12dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp">
+
+    <LinearLayout
+        android:background="@drawable/cpu_aro_bg"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="ROM"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            tools:text="60%"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/percent"
+            android:singleLine="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            tools:text="7.52GB/49.5GB"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:layout_marginTop="3dp"
+            android:id="@+id/percentdetail"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.moos.library.CircleProgressView
+        baseApp:progressTextVisibility="false"
+        baseApp:start_color="@color/red_end"
+        baseApp:end_color="@color/purple_end"
+        android:layout_gravity="center"
+        android:id="@+id/progress_rom"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        baseApp:circleBroken="true"
+        baseApp:isGraduated="true"
+        baseApp:start_progress="0"
+        baseApp:end_progress="30"
+        baseApp:track_width="16dp"
+        baseApp:isTracked="true"/>
+</LinearLayout>

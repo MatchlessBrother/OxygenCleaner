@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:baseApp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".pags.OxygenAct_BaseMain"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="end">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:visibility="gone"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/windowBackground">
+
+            <ImageView
+                android:id="@+id/title_menu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="6dp"
+                android:src="@drawable/meeenu"/>
+
+            <TextView
+                android:textSize="22sp"
+                android:singleLine="true"
+                android:id="@+id/title_title"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            baseApp:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:overScrollMode="never"
+                baseApp:layout_constraintEnd_toEndOf="parent"
+                baseApp:layout_constraintStart_toStartOf="parent" />
+
+            <android.support.design.widget.BottomNavigationView
+                baseApp:itemIconSize="25dp"
+                android:visibility="gone"
+                baseApp:menu="@menu/navigsdation"
+                android:id="@+id/navigation"
+                android:layout_height="56dp"
+                android:layout_width="match_parent"
+                baseApp:itemIconTint="@drawable/color_botm"/>
+
+            <com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+                android:background="?android:attr/windowBackground"
+                android:id="@+id/bottomnavigationview"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:elevation="6dp"
+                baseApp:bnc_mode="spread">
+
+                <com.gauravk.bubblenavigation.BubbleToggleView
+                    android:id="@+id/bubbleone"
+                    baseApp:bt_active="true"
+                    baseApp:bt_titleSize="12sp"
+                    baseApp:bt_titlePadding="2dp"
+                    baseApp:bt_colorActive="#4DC591"
+                    baseApp:bt_showShapeAlways="false"
+                    baseApp:bt_icon="@drawable/hsdome"
+                    baseApp:bt_colorInactive="#ffaaaaaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    baseApp:bt_shape="@android:color/transparent"
+                    baseApp:bt_shapeColor="@android:color/transparent"/>
+
+                <com.gauravk.bubblenavigation.BubbleToggleView
+                    baseApp:bt_active="true"
+                    baseApp:bt_titleSize="12sp"
+                    baseApp:bt_titlePadding="2dp"
+                    baseApp:bt_colorActive="#4DC591"
+                    baseApp:bt_showShapeAlways="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    baseApp:bt_colorInactive="#ffaaaaaa"
+                    baseApp:bt_icon="@drawable/prsseview"
+                    android:id="@+id/bubbletwo"
+                    baseApp:bt_shape="@android:color/transparent"
+                    baseApp:bt_shapeColor="@android:color/transparent"/>
+
+                <com.gauravk.bubblenavigation.BubbleToggleView
+                    android:id="@+id/bubblethree"
+                    baseApp:bt_active="true"
+                    baseApp:bt_titleSize="12sp"
+                    baseApp:bt_titlePadding="2dp"
+                    baseApp:bt_colorActive="#4DC591"
+                    baseApp:bt_showShapeAlways="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    baseApp:bt_colorInactive="#ffaaaaaa"
+                    baseApp:bt_icon="@drawable/statuass"
+                    baseApp:bt_shape="@android:color/transparent"
+                    baseApp:bt_shapeColor="@android:color/transparent"/>
+            </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="76dp"
+            android:src="@drawable/bell"
+            android:theme="@style/GreenTheme"
+            android:tint="@color/colorWhite"
+            android:visibility="gone"
+            baseApp:borderWidth="0dp"
+            baseApp:layout_anchor="@+id/navigation"
+            baseApp:layout_anchorGravity="bottom|end" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#eeffffff"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/menu_icon" />
+
+        <LinearLayout
+            android:id="@+id/ll_whiteList"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="0dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/settasdings" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/colorPrimary"
+                android:text="WhiteList"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_about"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="40dp"
+            android:paddingEnd="0dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/abossdut" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/colorPrimary"
+                android:text="About"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_update"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:paddingStart="40dp"
+            android:paddingEnd="0dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/asdate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/colorWhite"
+                android:text="Update"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_rate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:paddingStart="40dp"
+            android:paddingEnd="0dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/rasdfaate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/colorWhite"
+                android:text="Rate 5 stars"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

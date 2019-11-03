@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">OxygenCleaner</string>
+    <string name="text_privacy">
+        <![CDATA[
+        <h3>Privacy Policy</h1>
+        <b>Personal Information</b>
+        <p>We DO NOT collect, store or use any personal information while you visit, download or upgrade our products.</p>
+        <p>We may use personal information submitted by you only for the following purposes: help us develop, share, and improve our products and services and supply higher quality service.</p>
+        <p>In the following circumstances, we may disclose your personal information according to your wish or regulations by law:<br/>
+        (1) Your prior permission;<br/>
+        (2) By the applicable law within or outside your country of residence, legal process, litigation requests;<br/>
+        (3) By requests from public and governmental authorities;<br/>
+        (4) To protect our legal rights and interests.<br/>
+        </p>
+        <b>Non-Personal Information</b>
+        <p>We may collect and use non-personal information in the following circumstances. To have a better understanding in users’ behavior, solve problems in products and services, improve our products, services. we may collect non-personal information such as installed application name and android version, the data of install, frequency of use, country, equipment and channel.</p>
+        <p>If non-personal information is combined with personal information, we treat the combined information as personal information for the purposes of this Privacy Policy.</p>
+        <b>Changes</b>
+        <p>Our Privacy Policy may change from time to time. We will post any Privacy Policy changes on this page. We will not make any material retroactive changes to this Privacy Policy, including for changes involving the use of your Personal User Information, without your affirmative consent.</p>
+        <b>Contact us</b>
+        <p>If you have questions or concerns about our privacy practices, please contact us via email at sshh3726@gmail.com</p>
+        ]]>
+    </string>
+    <string name="text_screen_brightness">ScreenBrightness</string>
+    <string name="text_resolution">Resolution</string>
+    <string name="text_density">ScreenDensity</string>
+    <string name="text_font_scaling">FontScaling</string>
+    <string name="text_refresh_rate">RefreshRate</string>
+    <string name="text_brand">Brand</string>
+    <string name="text_model">Model</string>
+    <string name="text_host">Host</string>
+    <string name="text_serial">Serial</string>
+    <string name="text_id">ID</string>
+    <string name="text_time">ProductionDate</string>
+    <string name="text_cpu_model">CPU Model</string>
+    <string name="text_cpu_core_number">CPU Core Number</string>
+    <string name="text_maximum_frequency">MaximumFrequency</string>
+    <string name="text_minimum_frequency">MinimumFrequency</string>
+    <string name="text_current_frequency">CurrentFrequency</string>
+    <string name="text_cpu_architecture">CPU Architecture</string>
+    <string name="text_system_release">Release</string>
+    <string name="text_system_language">Language</string>
+    <string name="text_system_encoding">Encoding</string>
+    <string name="text_system_time_zone">TimeZone</string>
+    <string name="text_battery_level">BatteryLevel</string>
+    <string name="text_battery_temperature">Temperature</string>
+    <string name="text_battery_voltage">Voltage</string>
+    <string name="text_battery_technology">Technology</string>
+    <string name="text_battery_status">Status</string>
+    <string name="text_battery_full">Full</string>
+    <string name="text_battery_charging">Charging</string>
+    <string name="text_battery_discharging">Discharging</string>
+    <string name="text_select_email">Please select the mail application</string>
+    <string name="text_no_boost">No need to accelerate</string>
+    <string name="text_release_format" formatted="false">Release %s%s memory</string>
+    <string name="text_no_clean">No need to clean up</string>
+    <string name="text_no_cool_down">No need to cool down</string>
+    <string name="text_down_format" formatted="false">Down %.1f℃</string>
+    <string name="text_no_optimization">No optimization required</string>
+    <string name="text_complete_optimization">Complete power consumption optimization</string>
+</resources>
