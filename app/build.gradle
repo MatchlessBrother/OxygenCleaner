@@ -7,7 +7,7 @@ android {
         minSdkVersion 19
         versionName "1.0.0"
         targetSdkVersion 28
-        applicationId "com.oxygen.cleaner"
+        applicationId "com.overall.cleanup"
         vectorDrawables.useSupportLibrary = true
         resConfigs "zh", "en", "de", "fr", "pl", "it", "es", "pt", "uk"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -33,7 +33,7 @@ android {
             variant.outputs.all {
                 def versionName = defaultConfig.versionName
                 def versionCode = defaultConfig.versionCode
-                def appName = 'OxygenCleaner'
+                def appName = 'OverallCleanUp'
                 if ((variant.buildType.name == 'release')) {
                     outputFileName = "${appName}-v${versionName}-c${versionCode}-release.apk"
                     variant.javaCompileProvider.configure {

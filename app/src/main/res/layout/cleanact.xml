@@ -11,7 +11,7 @@
         android:id="@+id/wqed"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".pags.OxygenAct_Cldan"
+        tools:context=".pags.OverallAct_Cldan"
         android:background="#ffeeeeee">
 
         <android.support.design.widget.AppBarLayout
@@ -114,7 +114,7 @@
                 android:orientation="vertical"
                 android:visibility="gone">
 
-                <com.oxygen.cleaner.view.TickBarsView
+                <com.overall.cleanup.view.TickBarsView
                     android:id="@+id/tv_tick"
                     android:layout_width="50dp"
                     android:layout_height="50dp" />

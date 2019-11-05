@@ -5,7 +5,7 @@
     android:background="@color/colorWhite"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    tools:context=".pags.OxygenAct_Splash">
+    tools:context=".pags.OverallAct_Splash">
 
     <ImageView
         android:scaleType="centerCrop"

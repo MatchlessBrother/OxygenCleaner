@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.oxygen.cleaner">
+    package="com.overall.cleanup">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -16,7 +16,7 @@
         android:resizeableActivity="true">
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAct_Splash"
+            android:name="com.overall.cleanup.pags.OverallAct_Splash"
             android:theme="@style/NoStateBarStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,35 +25,35 @@
         </activity>
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAct_Sder"
+            android:name="com.overall.cleanup.pags.OverallAct_Sder"
             android:theme="@style/LightStatusTheme" />
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAct_Basdst"
+            android:name="com.overall.cleanup.pags.OverallAct_Basdst"
             android:theme="@style/LightStatusTheme" />
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAct_asdler"
+            android:name="com.overall.cleanup.pags.OverallAct_asdler"
             android:theme="@style/LightStatusTheme" />
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAct_White"
+            android:name="com.overall.cleanup.pags.OverallAct_White"
             android:theme="@style/LightStatusTheme" />
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAct_Cldan"
+            android:name="com.overall.cleanup.pags.OverallAct_Cldan"
             android:theme="@style/LightStatusTheme" />
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAoutAct"
+            android:name="com.overall.cleanup.pags.OverallAoutAct"
             android:theme="@style/LightStatusTheme" />
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAct_BaseMain"
+            android:name="com.overall.cleanup.pags.OverallAct_BaseMain"
             android:theme="@style/LightStatusTheme" />
 
         <activity
-            android:name="com.oxygen.cleaner.pags.OxygenAct_Prvacy"
+            android:name="com.overall.cleanup.pags.OverallAct_Prvacy"
             android:theme="@style/LightStatusTheme" />
     </application>
 
