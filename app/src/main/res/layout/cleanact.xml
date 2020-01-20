@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:baseApp="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,14 +7,14 @@
     android:layout_height="match_parent"
     android:clipToPadding="false">
 
-    <android.support.design.widget.CoordinatorLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:id="@+id/wqed"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".pags.OverallAct_Cldan"
         android:background="#ffeeeeee">
 
-        <android.support.design.widget.AppBarLayout
+        <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/sdafasdf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -57,7 +57,7 @@
                     android:textStyle="bold" />
             </FrameLayout>
 
-            <android.support.constraint.ConstraintLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:gravity="center"
                 android:id="@+id/view_size"
                 android:layout_height="220dp"
@@ -103,7 +103,7 @@
                     baseApp:layout_constraintTop_toTopOf="@id/tv_size"
                     baseApp:layout_constraintLeft_toRightOf="@id/tv_size"
                     baseApp:layout_constraintBottom_toBottomOf="@id/tv_size"/>
-            </android.support.constraint.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
             <LinearLayout
@@ -187,7 +187,7 @@
                     android:progressDrawable="@drawable/pro_red"
                     android:visibility="invisible" />
             </FrameLayout>
-        </android.support.design.widget.AppBarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
 
         <me.didik.component.StickyNestedScrollView
             android:id="@+id/view_scroll"
@@ -202,7 +202,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/view_junk"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -292,12 +292,12 @@
                                     </FrameLayout>
                                 </LinearLayout>
 
-                                <android.support.v7.widget.RecyclerView
+                                <androidx.recyclerview.widget.RecyclerView
                                     android:id="@+id/rv_cache"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:visibility="gone"
-                                    baseApp:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                                    baseApp:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -368,12 +368,12 @@
                                     </FrameLayout>
                                 </LinearLayout>
 
-                                <android.support.v7.widget.RecyclerView
+                                <androidx.recyclerview.widget.RecyclerView
                                     android:id="@+id/rv_temp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:visibility="gone"
-                                    baseApp:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                                    baseApp:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -444,12 +444,12 @@
                                     </FrameLayout>
                                 </LinearLayout>
 
-                                <android.support.v7.widget.RecyclerView
+                                <androidx.recyclerview.widget.RecyclerView
                                     android:id="@+id/rv_leftover"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:visibility="gone"
-                                    baseApp:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                                    baseApp:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -520,12 +520,12 @@
                                     </FrameLayout>
                                 </LinearLayout>
 
-                                <android.support.v7.widget.RecyclerView
+                                <androidx.recyclerview.widget.RecyclerView
                                     android:id="@+id/rv_thumb"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:visibility="gone"
-                                    baseApp:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                                    baseApp:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -545,9 +545,9 @@
                             android:textStyle="bold"
                             android:visibility="visible"/>
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/view_cooler"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -600,8 +600,8 @@
                             android:textSize="18sp"
                             android:textStyle="bold" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
             </FrameLayout>
         </me.didik.component.StickyNestedScrollView>
-    </android.support.design.widget.CoordinatorLayout>
-</android.support.constraint.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

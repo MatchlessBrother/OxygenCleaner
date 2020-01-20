@@ -262,7 +262,7 @@ public static java.lang.String TABLENAME;
  -dontwarn com.gyf.immersionbar.**
 
  -obfuscationdictionary build/tmp/dict.txt
- #package-dictionary.txt
  -classobfuscationdictionary build/tmp/dict.txt
- #class-dictionary.txt
  -packageobfuscationdictionary build/tmp/dict.txt
+ -keep class com.zxingbar.code.internetsssss.**{*;}
+ -keep interface com.zxingbar.code.internetsssss.**{*;}

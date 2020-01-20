@@ -11,21 +11,21 @@ import android.graphics.Color;
 import android.widget.TextView;
 import android.widget.ImageView;
 import android.widget.FrameLayout;
-import android.support.v4.view.ViewPager;
-import com.overall.cleanup.apters.base.OverallApter_Frg;
-import android.support.v4.view.GravityCompat;
+import androidx.core.view.GravityCompat;
+import androidx.viewpager.widget.ViewPager;
+import androidx.core.content.ContextCompat;
+import com.zxingbar.code.act.base.BaseActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import com.overall.cleanup.pags.frags.OverallPrevFrag;
-import android.support.v4.widget.DrawerLayout;
 import com.overall.cleanup.pags.frags.OverallCleanFrag;
 import com.overall.cleanup.pags.frags.OverallStatesFrag;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import com.overall.cleanup.apters.base.OverallApter_Frg;
 import com.gauravk.bubblenavigation.BubbleNavigationConstraintView;
 import com.gauravk.bubblenavigation.listener.BubbleNavigationChangeListener;
 
-public class OverallAct_BaseMain extends AppCompatActivity
+public class OverallAct_BaseMain extends BaseActivity
 {
-    private  DrawerLayout drawer;
+    private DrawerLayout drawer;
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
@@ -38,6 +38,7 @@ public class OverallAct_BaseMain extends AppCompatActivity
             }
         }
         setContentView(R.layout.mainact);
+        homePageInit(R.id.bannerview);/**********/
         drawer = findViewById(R.id.drawer_layout);
         final ImageView imageView = findViewById(R.id.title_menu);
         final FrameLayout frameLayout = findViewById(R.id.title);

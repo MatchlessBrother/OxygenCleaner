@@ -17,9 +17,9 @@ import com.overall.cleanup.util.OverallCdcfTool;
 import com.gyf.immersionbar.ImmersionBar;
 import com.overall.cleanup.util.OverallStgddeTool;
 import com.overall.cleanup.pags.OverallAct_BaseMain;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.overall.cleanup.util.OverallFilasdeUtil;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.monke.mprogressbar.MRingProgressBar;
 import com.gyf.immersionbar.components.SimpleImmersionFragment;
 

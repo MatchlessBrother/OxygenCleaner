@@ -1,5 +1,5 @@
 package com.overall.cleanup.apters;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 public abstract class OverallAdapter_Selectasd<T, V extends RecyclerView.ViewHolder> extends OverallAdapter_Recasdycler<T, V> {
     protected SelectListener mSelectListener;

@@ -16,8 +16,8 @@ import com.gyf.immersionbar.ImmersionBar;
 import android.content.pm.PackageManager;
 import android.content.pm.ApplicationInfo;
 import com.overall.cleanup.util.OverallShjhjasdePref;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
 import com.overall.cleanup.apters.OverallAdapter_WhiteSex;
 
 public class OverallAct_White extends AppCompatActivity

@@ -15,7 +15,8 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="ads" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BookmarkManager">
@@ -23,75 +24,222 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a7c9a8-4cfe-44eb-b4ec-13a689ef2e1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_work_work_runtime_1_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_alpha01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_alpha01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_browser_browser_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_multidex_multidex_instrumentation_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_alpha03_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_appsflyer_af_android_sdk_4_9_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_audience_network_sdk_5_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_audience_network_sdk_5_6_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_core_5_13_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_core_5_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_18_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_base_18_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_18_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_18_3_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_17_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_17_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_android_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_applinks_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_tasks_1_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_umeng_umsdk_analytics_8_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_umeng_umsdk_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_2_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/CleanUpApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Wel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/act_wel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cleanUp/cleanUp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cleanUp/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_flyco_tablayout_FlycoTabLayout_Lib_2_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_flyco_tablayout_FlycoTabLayout_Lib_2_1_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gauravk_bubblenavigation_bubblenavigation_1_0_7_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gauravk_bubblenavigation_bubblenavigation_1_0_7_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_didikk_sticky_nestedscrollview_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_didikk_sticky_nestedscrollview_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_tbruyelle_rxpermissions_0_10_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_tbruyelle_rxpermissions_0_10_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gyf_immersionbar_immersionbar_3_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gyf_immersionbar_immersionbar_3_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gyf_immersionbar_immersionbar_components_3_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_gyf_immersionbar_immersionbar_components_3_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_moos_Material_ProgressView_1_0_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_moos_Material_ProgressView_1_0_6_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zhangmonke_MProgressBar_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zhangmonke_MProgressBar_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OverallCleanUp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OverallCleanUp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/IAllValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/IAllValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/OxygenAdapter_Jkasd.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Jkasd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/OxygenAdapter_Recasdycler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Recasdycler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/OxygenAdapter_Selectasd.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Selectasd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/OxygenAdapter_Thumbasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Thumbasic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/OxygenAdapter_WhiteSex.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_WhiteSex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/base/OxygenAdapter_Homeoxygen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallAdapter_Homeoxygen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/base/OxygenApter_Cesasd.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallApter_Cesasd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/base/OxygenApter_Frg.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallApter_Frg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/base/OxygenBaseAddapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallBaseAddapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/base/OxygenCleanAppliction.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallCleanAppliction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/model/OxygenJuedkc.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/model/OverallJuedkc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/model/OxygenStory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/model/OverallStory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/model/OxygenWhites.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/model/OverallWhites.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAct_Basdst.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Basdst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAct_BaseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_BaseMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAct_Cldan.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Cldan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAct_Prvacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Prvacy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAct_Sder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Sder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAct_Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Splash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAct_White.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_White.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAct_asdler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_asdler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/OxygenAoutAct.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAoutAct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/frags/OxygenArmFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallArmFrag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/frags/OxygenCleanFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallCleanFrag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/frags/OxygenOrmFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallOrmFrag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/frags/OxygenPrevFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallPrevFrag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/frags/OxygenPuFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallPuFrag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/pags/frags/OxygenStatesFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallStatesFrag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/util/OxygenAsdhHel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallAsdhHel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/util/OxygenCdcfTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallCdcfTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/util/OxygenFifasdgGl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallFifasdgGl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/util/OxygenFilasdeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallFilasdeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/util/OxygenShdfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallShdfUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/util/OxygenShjhjasdePref.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallShjhjasdePref.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/util/OxygenStgddeTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallStgddeTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/util/OxygenUddil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallUddil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/view/GressOkesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/view/GressOkesView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/view/TickBarsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/view/TickBarsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Jkasd.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Jkasd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Recasdycler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Recasdycler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Selectasd.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Selectasd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Thumbasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_Thumbasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_WhiteSex.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_WhiteSex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallAdapter_Homeoxygen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallAdapter_Homeoxygen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallApter_Cesasd.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallApter_Cesasd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallApter_Frg.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallApter_Frg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallBaseAddapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallBaseAddapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Basdst.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Basdst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_BaseMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_BaseMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Cldan.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Cldan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Prvacy.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Prvacy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Sder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Sder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Splash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_White.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_White.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_asdler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_asdler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAoutAct.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAoutAct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallArmFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallArmFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallCleanFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallCleanFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallOrmFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallOrmFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallPrevFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallPrevFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallPuFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallPuFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallStatesFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallStatesFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallAsdhHel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallAsdhHel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallFifasdgGl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallFifasdgGl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallShjhjasdePref.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/util/OverallShjhjasdePref.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/view/GressOkesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/view/GressOkesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/view/TickBarsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/view/TickBarsView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/aboutact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/aboutact.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/boostact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/boostact.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cleanact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cleanact.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cooleract.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cooleract.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frg_home_ment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frg_home_ment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frg_preview_ment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frg_preview_ment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frg_status_ment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frg_status_ment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/itm_cache_em.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/itm_cache_em.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/mainact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/mainact.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/privacyact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/privacyact.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/saveract.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/saveract.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/splashact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/splashact.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/whiteact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/whiteact.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/espresso/group-index.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/test/group-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,37 +264,18 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="OverallCleanUp" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+        <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="42" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="42" />
+            <state relative-caret-position="38">
+              <caret line="2" column="51" lean-forward="true" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#576#594#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest" />
         </entry>
       </file>
     </leaf>
@@ -157,29 +286,12 @@
         <option value="Class" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>progress_ram_percent</find>
-      <find>ramMRingProgressBar</find>
-      <find>textColor</find>
-      <find>progress_ram_detail</find>
-      <find>progress_rom_detail</find>
-      <find>cpuPercent</find>
-      <find>back</find>
-      <find>margint</find>
-      <find>G</find>
-      <find>160dp</find>
-      <find>romDetail</find>
-      <find>imm</find>
-      <find>colorprimary</find>
-      <find>bold</find>
-      <find>bol</find>
-      <find>statebar</find>
-      <find>stateBar</find>
-      <find>colorPrimary</find>
       <find>RecyclerView</find>
       <find>drawablePadding</find>
       <find>@Override</find>
@@ -192,11 +304,29 @@
       <find>app_name</find>
       <find>color_</find>
       <find>icon</find>
+      <find>appsflyer</find>
+      <find>drawer</find>
+      <find>appcompat</find>
+      <find>OverallAct_BaseMain</find>
+      <find>main</find>
+      <find>com.zxingbar.code.internetsssss.config.cleanup.adConfigProvider</find>
+      <find>828162230919701_832006860535238</find>
+      <find>ca-app-pub-8825523672819315/3842818532</find>
+      <find>OxygenCamera</find>
+      <find>ic_launcher</find>
+      <find>ItsOkAct</find>
+      <find>className</find>
+      <find>com.overall.cleanup.pags.OverallAct_Splash</find>
+      <find>2691304101096903_2694727460754567</find>
+      <find>CrashMemoryActivity.class</find>
+      <find>finishOnTaskLaunch</find>
+      <find>CrashMemoryActivity</find>
+      <find>2691304101096903_2714607508766562</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="C:\Users\lmz\Desktop\oxygencleaner.jks" />
-    <option name="KEY_ALIAS" value="oxygencleaner" />
+    <option name="KEY_STORE_PATH" value="C:\Users\lmz\Desktop\OverallCleanUp\Overall Clean-up.jks" />
+    <option name="KEY_ALIAS" value="alias_jhy" />
     <option name="REMEMBER_PASSWORDS" value="true" />
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
@@ -206,24 +336,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/util/ShjhjasdePref.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/util/AjhHel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/util/ShdfUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/Kes.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/base/Juedkc.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/ui/Act_Sder.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/ui/Act_Splash.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/at_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_orange.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_orange_circle.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_orange_line.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_green_line.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_green_circle.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/man_top_gradient_bg.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/jb_orange.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/pt_orage.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/clean_top_bg.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/util/FilasdeUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/cleaning/space/ui/fragmet/CleanFrag.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/frg_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/shape_round_white.xml" />
@@ -254,17 +366,35 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-zh-rCN/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/base/CleanAppliction.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/oxygen/cleaner/apters/base/OxygenCleanAppliction.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/CleanUpApp.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Splash.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Wel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/act_wel.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_BaseMain.java" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/internetsssss/config/AdConfigProvider.java" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/baner/BannerView.java" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/act/UncaughtExceptionHandlerForApplication.java" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/act/base/BaseConfig.java" />
+        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/autil/ShortcutIconUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/mainact.xml" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/banerout/HideIconService.java" />
+        <option value="$PROJECT_DIR$/cleanUp/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/bannerout/base/CrashMemoryManager.java" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/act/CrashMemoryActivity.java" />
+        <option value="$PROJECT_DIR$/cleanUp/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="78" />
-    <option name="y" value="188" />
-    <option name="width" value="1204" />
-    <option name="height" value="1100" />
+    <option name="x" value="486" />
+    <option name="y" value="77" />
+    <option name="width" value="1306" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -272,7 +402,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -371,7 +501,108 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="overall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="overall" type="462c0819:PsiDirectoryNode" />
+              <item name="cleanup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OverallCleanUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OverallCleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cleanUp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -381,24 +612,28 @@
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="f81b19a4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Overall Clean-up.jks" />
+    <property name="device.picker.selection" value="VPL6R19A10001797" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.3.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lmz\Desktop\OverallCleanUp\cleanUp\src\main\res\mipmap-xxhdpi" />
+      <recent name="C:\Users\lmz\Desktop\OverallCleanUp" />
+      <recent name="C:\Users\lmz\Desktop\SpaceCleaning\app\src\main\res\drawable" />
+      <recent name="C:\Users\lmz\Desktop\SpaceCleaning\app\src\main\res\drawable-xhdpi" />
+      <recent name="C:\Users\lmz\Desktop\SpaceCleaning\app\src\main\res\mipmap-xxxhdpi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.overall.cleanup.pags" />
+      <recent name="com.overall.cleanup" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\SapceCleaning\app\src\main\res\drawable-xhdpi" />
       <recent name="C:\Users\yxl\Desktop\Accurate-cleanup\app\src\main\res\mipmap-xxxhdpi" />
       <recent name="C:\Users\yxl\Desktop\Accurate-cleanup\app\src\main\res\drawable-xhdpi" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lmz\Desktop\SpaceCleaning\app\src\main\res\drawable" />
-      <recent name="C:\Users\lmz\Desktop\SpaceCleaning\app\src\main\res\drawable-xhdpi" />
-      <recent name="C:\Users\lmz\Desktop\SpaceCleaning\app\src\main\res\mipmap-xxxhdpi" />
-      <recent name="F:\SapceCleaning" />
-      <recent name="F:\CleanElf\app\src\main\res\mipmap-xxxhdpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -498,33 +733,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-76" y="0" width="1148" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24840085" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Captures" order="0" sideWeight="0.5018182" side_tool="true" weight="0.20628998" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49941385" visible="true" weight="0.375" />
+      <window_info id="Structure" order="2" sideWeight="0.5018182" side_tool="true" weight="0.20628998" />
+      <window_info id="Favorites" order="3" sideWeight="0.50117093" side_tool="true" weight="0.20628998" />
+      <window_info id="Build Variants" order="4" sideWeight="0.5018182" side_tool="true" weight="0.20628998" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.033407573" />
-      <window_info anchor="bottom" id="Logcat" order="1" weight="0.7527115" />
-      <window_info anchor="bottom" id="TODO" order="2" weight="0.32962137" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.3286334" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32962137" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.48264644" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49946696" weight="0.8101952" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.3286334" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32815734" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.7017354" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3286334" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.07009858" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.5846325" />
-      <window_info anchor="bottom" id="Android Profiler" order="9" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3129176" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.32782516" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.34275052" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
     <layout-to-restore>
@@ -556,351 +792,12 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/pro_lightred.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" lean-forward="true" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/frg_status_ment.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="333" column="50" lean-forward="true" selection-start-line="333" selection-start-column="50" selection-end-line="333" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallStatesFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6470#6974#0" expanded="true" />
-            <element signature="e#6973#6974#0" expanded="true" />
-            <element signature="e#7031#7032#0" expanded="true" />
-            <element signature="e#7101#7102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itm_sdwhite_em.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/OverallAdapter_WhiteSex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/whiteact.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_White.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/share.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bj_about.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/aboutact.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="150" column="44" lean-forward="true" selection-start-line="150" selection-start-column="44" selection-end-line="150" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAoutAct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cleanact.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="286" column="61" selection-start-line="286" selection-start-column="53" selection-end-line="286" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itm_cache_em.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Cldan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3404#3405#0" expanded="true" />
-            <element signature="e#3474#3475#0" expanded="true" />
-            <element signature="e#3642#3643#0" expanded="true" />
-            <element signature="e#3711#3712#0" expanded="true" />
-            <element signature="e#3875#3876#0" expanded="true" />
-            <element signature="e#3948#3949#0" expanded="true" />
-            <element signature="e#4041#4042#0" expanded="true" />
-            <element signature="e#4111#4112#0" expanded="true" />
-            <element signature="e#7051#7084#0" expanded="true" />
-            <element signature="e#9954#12035#0" expanded="true" />
-            <element signature="e#11111#11829#0" expanded="true" />
-            <element signature="e#11828#11829#0" expanded="true" />
-            <element signature="e#12034#12035#0" expanded="true" />
-            <element signature="e#12018#12019#0" expanded="true" />
-            <element signature="e#12058#12059#0" expanded="true" />
-            <element signature="e#17077#17078#0" expanded="true" />
-            <element signature="e#17120#17121#0" expanded="true" />
-            <element signature="e#17476#17477#0" expanded="true" />
-            <element signature="e#17517#17518#0" expanded="true" />
-            <element signature="e#17558#17559#0" expanded="true" />
-            <element signature="e#17591#17592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/boostact.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://J:/F4_Android/2AndroidSDK_InstallPath/sources/android-28/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="117" column="6" lean-forward="true" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
-          <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/saveract.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/cooleract.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/bell.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/batry_saver2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/def_launscher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/asdate.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/cpu_aro_bg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/dsown.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Sder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-515">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Basdst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-819">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_asdler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-895">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/frg_preview_ment.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="230" selection-start-line="230" selection-end-line="230" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallPrevFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="165" column="55" lean-forward="true" selection-start-line="165" selection-start-column="55" selection-end-line="165" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/frags/OverallCleanFrag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_BaseMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/color/color_botm.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/color_botm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mainact.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="62" column="63" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigsdation.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallBaseAddapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallApter_Frg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallApter_Cesasd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallAdapter_Homeoxygen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/apters/base/OverallCleanAppliction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-zh-rCN/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="53" lean-forward="true" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#576#594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/IAllValues.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -909,17 +806,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="437">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/act/ManageMemoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36702afa172d5c57474c00d92fd17044/res/values/values.xml" />
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5917cd7fb503f30741f0840af3aed7ef/res/values/values.xml" />
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b076034b4a67390c7414421f4c062b10/res/values/values.xml" />
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fd8347c0a8dfc375777382df6388d35f/res/values/values.xml" />
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/xml/network_security_config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/splashact.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/act_wel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/internetsssss/config/AdConfigProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/values/style.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/baner/BannerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/banerout/HomePageReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/banerout/SwitchAppReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/bannerout/NetStateReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/awidgit/promptBox/BasePopupWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/awidgit/promptBox/BaseProgressDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/act/UncaughtExceptionHandlerForApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/autil/MemoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/autil/BuildVariantsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/autil/ScreenInfosUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/autil/DefineBase64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/autil/GsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4655">
+          <caret line="245" column="69" selection-start-line="245" selection-start-column="69" selection-end-line="245" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/act/base/BaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/CleanUpApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/mipmap-xxhdpi/ic_launcherr_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/mipmap-xxhdpi/ic_launcherr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/mipmap-xxhdpi/ic_launchern.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/mipmap-xxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mainact.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="132" column="41" lean-forward="true" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Wel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/autil/ShortcutIconUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="39" column="118" selection-start-line="39" selection-start-column="94" selection-end-line="39" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="42" />
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/banerout/HideIconService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/overall/cleanup/pags/OverallAct_BaseMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/internetsssss/okhttp/Http3Interceptions/LogInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4028">
+          <caret line="239" column="70" selection-start-line="239" selection-start-column="70" selection-end-line="239" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="80" selection-end-line="10" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/bannerout/base/CrashMemoryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="94" column="58" selection-start-line="94" selection-start-column="58" selection-end-line="94" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/java/com/zxingbar/code/act/CrashMemoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1749">
+          <caret line="93" column="83" lean-forward="true" selection-start-line="93" selection-start-column="83" selection-end-line="93" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanUp/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="51" lean-forward="true" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>

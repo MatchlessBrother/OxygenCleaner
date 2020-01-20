@@ -9,9 +9,9 @@ import android.widget.TextView;
 import android.view.LayoutInflater;
 import com.overall.cleanup.util.OverallFilasdeUtil;
 import com.overall.cleanup.util.OverallStgddeTool;
-import android.support.v4.app.Fragment;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.moos.library.CircleProgressView;
 
 public class OverallOrmFrag extends Fragment

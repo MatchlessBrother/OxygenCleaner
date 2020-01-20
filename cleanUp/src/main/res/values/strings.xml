@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">OverallCleanUp</string>
+    <string name="clearallmemory">Clear  Datas</string>
+    <string name="managememory">Data Management</string>
+    <string name="facebook_app_id">2691304101096903</string>
+    <string name="facebook_banner_id">2691304101096903_2727699994123980</string>
+    <string name="facebook_in_placement_id">2691304101096903_2727699450790701</string>
+    <string name="facebook_out_placement_id">2691304101096903_2727699450790701</string>
+
+    <string name="google_app_id">ca-app-pub-1066479866428963~2849961170</string>
+    <string name="google_in_placement_id">ca-app-pub-1066479866428963/8730356703</string>
+    <string name="google_out_placement_id">ca-app-pub-1066479866428963/8730356703</string>
+
+</resources>

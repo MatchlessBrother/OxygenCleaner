@@ -7,7 +7,7 @@ import com.overall.cleanup.R;
 import android.content.Intent;
 import android.widget.TextView;
 import com.gyf.immersionbar.ImmersionBar;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class OverallAoutAct extends AppCompatActivity
 {

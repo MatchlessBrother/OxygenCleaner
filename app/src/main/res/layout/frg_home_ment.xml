@@ -74,7 +74,7 @@
                 android:gravity="center_vertical"
                 android:layout_height="match_parent">
 
-                <android.support.constraint.ConstraintLayout
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:gravity="center"
                     android:id="@+id/progress_rom"
                     android:orientation="vertical"
@@ -132,9 +132,9 @@
                         app:layout_constraintTop_toTopOf="@id/aaa_text3"
                         app:layout_constraintLeft_toRightOf="@id/aaa_text3"
                         app:layout_constraintBottom_toBottomOf="@id/aaa_text3"/>
-                </android.support.constraint.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-                <android.support.constraint.ConstraintLayout
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:gravity="center"
                     android:id="@+id/progress_ram"
                     android:orientation="vertical"
@@ -193,7 +193,7 @@
                         app:layout_constraintTop_toTopOf="@id/aaa_text33"
                         app:layout_constraintLeft_toRightOf="@id/aaa_text33"
                         app:layout_constraintBottom_toBottomOf="@id/aaa_text33"/>
-                </android.support.constraint.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
             </LinearLayout>
 
             <LinearLayout

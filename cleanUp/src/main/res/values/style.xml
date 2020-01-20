@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultBannerConfigs">
+        <item name="retryNumber">0</item>
+        <item name="closeEnable">true</item>
+        <item name="heightMode">BANNER_HEIGHT_50</item>
+        <item name="placementId">@string/facebook_banner_id</item>
+    </style>
+
+    <!--**************从屏幕底部向顶部移动直至完全显示本身的动画效果***************-->
+    <style name="BottomOpenDialogAnim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/show_bottomnotify</item>
+        <item name="android:windowExitAnimation">@anim/dismiss_bottomnotify</item>
+    </style>
+
+    <style name="PixelTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

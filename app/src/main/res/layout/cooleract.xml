@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:baseApp="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".pags.OverallAct_asdler">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_height="240dp"
         android:layout_width="match_parent"
         android:gravity="center_horizontal">
@@ -111,7 +111,7 @@
                 android:text="CPU temperature is normal"
                 android:textColor="@color/colorWhite" />
         </LinearLayout>
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
 
@@ -121,7 +121,7 @@
         android:orientation="vertical"
         baseApp:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_app"
             android:layout_marginTop="12dp"
             android:layout_marginLeft="12dp"
@@ -129,7 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            baseApp:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+            baseApp:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
         <Button
             android:id="@+id/btn_cool_down"
@@ -145,4 +145,4 @@
             android:textColor="@color/colorWhite"
             android:textSize="20sp" />
     </LinearLayout>
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

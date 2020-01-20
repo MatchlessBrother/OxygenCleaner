@@ -18,9 +18,9 @@ import com.overall.cleanup.util.OverallShdfUtil;
 import com.gyf.immersionbar.ImmersionBar;
 import android.view.ViewPropertyAnimator;
 import com.overall.cleanup.apters.base.OverallBaseAddapter;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import com.overall.cleanup.apters.base.OverallCleanAppliction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.animation.AnimatorListenerAdapter;
 
 public class OverallAct_Sder extends AppCompatActivity

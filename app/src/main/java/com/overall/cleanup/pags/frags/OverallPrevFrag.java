@@ -24,9 +24,9 @@ import com.overall.cleanup.util.OverallCdcfTool;
 import com.overall.cleanup.util.OverallShdfUtil;
 import com.gyf.immersionbar.ImmersionBar;
 import android.content.BroadcastReceiver;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.overall.cleanup.pags.OverallAct_BaseMain;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.gyf.immersionbar.components.SimpleImmersionFragment;
 
 public class OverallPrevFrag extends SimpleImmersionFragment

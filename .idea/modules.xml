@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OverallCleanUp.iml" filepath="$PROJECT_DIR$/OverallCleanUp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cleanUp/cleanUp.iml" filepath="$PROJECT_DIR$/cleanUp/cleanUp.iml" />
     </modules>
   </component>
 </project>

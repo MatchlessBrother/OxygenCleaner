@@ -10,7 +10,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Looper;
 import android.provider.MediaStore;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 
 import com.overall.cleanup.IAllValues;
 import com.overall.cleanup.model.OverallStory;
